@@ -1,0 +1,137 @@
+#productos1{
+	width:100%;
+}
+.bajo {
+	float: left;
+	text-align: center;
+	background-color:green;
+}
+
+.der {
+	width:50%;
+	height:350px;
+	background-color:#9bf;
+	border-style: solid;
+	border-color: #9cf;
+	border-width: 0px 0px 5px 1px;
+}
+.izq {
+	width:50%;
+	height:350px;
+	background-color:#9bf;
+	border-style: solid;
+	border-color: #9cf;
+	border-width: 0px 1px 5px 0px;
+} 
+
+.zero{
+	height:10%;
+}
+.izq .one{
+	height:30%;
+	width:100%;
+	background:url("../images/comida1.png") no-repeat center center;
+	background-size: contain;
+	display:flex;
+}
+
+.der .one{
+	height:30%;
+	width:100%;
+	background:url("../images/comida2.png") no-repeat center center;
+	background-size: contain;
+	display:flex;
+}
+
+.two{
+	height:40%;
+	width:100%;
+	font-size:0.5em;
+	text-align:left;
+}
+
+.three{
+	height:10%;
+	width:100%;
+}
+.four{
+	height:10%;
+	width:100%;
+	border-radius: 10px;
+	font-size:0.7em;
+	padding: 10px;
+	background-color:eef;
+}
+
+
+.dialog-container {
+  background: rgba(0, 0, 0, 0.57);
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  pointer-events: none;
+  will-change: opacity;
+  -webkit-transition: opacity 0.333s cubic-bezier(0, 0, 0.21, 1);
+  transition: opacity 0.333s cubic-bezier(0, 0, 0.21, 1); }
+
+.dialog-container--visible {
+  opacity: 1;
+  pointer-events: auto; }
+
+.dialog {
+  background-color:#9bf;
+  border-radius: 2px;
+  box-shadow: 0 0 14px rgba(0, 0, 0, 0.24), 0 14px 28px rgba(0, 0, 0, 0.48);
+  min-width: 280px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%) translateY(30px);
+          transform: translate(-50%, -50%) translateY(30px);
+  -webkit-transition: -webkit-transform 0.333s cubic-bezier(0, 0, 0.21, 1) 0.05s;
+  transition: -webkit-transform 0.333s cubic-bezier(0, 0, 0.21, 1) 0.05s;
+  transition: transform 0.333s cubic-bezier(0, 0, 0.21, 1) 0.05s;
+  transition: transform 0.333s cubic-bezier(0, 0, 0.21, 1) 0.05s, -webkit-transform 0.333s cubic-bezier(0, 0, 0.21, 1) 0.05s; }
+
+.dialog > div {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.dialog-title {
+  padding-top: 20px;
+  font-size: 1.25em; }
+
+.dialog-body {
+  padding-top: 20px;
+  padding-bottom: 24px;
+  }
+  
+.dialog-buttons {
+  padding: 8px !important;
+  float: right; }
+  
+.dialog-spec{
+	margin-top:10px;
+	display:flex;
+	background-color:#eef;
+	padding:10px
+}
+.dialog-img{
+	margin-right:20px;
+	height:60px;
+	width:60px;	
+	background: url("../images/comida1.png") no-repeat center center ; 
+	background-size: contain
+}
+
+.nombre{
+	font-size:2em;
+	margin-top:42px;
+	border: 2px solid black;
+	text-align:center;
+	background-color:grey;
+}

@@ -1,0 +1,34 @@
+.restaurant {
+	padding: 15px;	background-color:#bdf;
+	display:flex;
+	width:100%;
+	margin-bottom:2px;
+}
+.description {
+	margin-left:10px;
+}
+.logo_container {
+	height:60px;
+	width:60px;	
+	background-image:url("/images/ejemplo.png");
+	background-size: auto 100%
+}
+.name_container {
+	font-size:1.2em;
+	color:#000;
+}
+.cat_container {
+	font-size:0.6em;
+	color:#888;
+	margin-top: 5px;
+}
+.flagprom{
+	margin-top: 5px;
+	font-size:0.6em;
+}
+.inactive{
+	color:#f44;
+}
+.active{
+	color:#292;
+}

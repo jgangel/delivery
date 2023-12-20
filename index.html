@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+		<title>App</title>
+		<link rel="stylesheet" type="text/css" href="styles/main.css"> 
+		<link rel="stylesheet" type="text/css" href="styles/inline.css"> 
+		<link rel="manifest" href="/manifest.json">
+	</head>
+	<body>
+		<div id="box">
+			<div id="header">
+				<div id="hmenu"></div>
+				<div id="htitle">
+					App
+				</div>
+				<div id="hcart" onclick="location.href='carrito.html'">
+				</div>
+			</div>
+			<div id="content_fill">
+				<div id="pub">
+					<div  class="slideshow-container">
+						<div class="mySlides fade">
+						  <div class="numbertext">1 / 3</div>
+						  <img src="images/test1.jpg" class="pubimg">
+						  <div class="text">Caption One</div>
+						</div>
+
+						<div class="mySlides fade">
+						  <div class="numbertext">2 / 3</div>
+						  <img src="images/test2.jpg" class="pubimg">
+						  <div class="text">Caption Two</div>
+						</div>
+
+						<div class="mySlides fade">
+						  <div class="numbertext">3 / 3</div>
+						  <img src="images/test3.jpg" class="pubimg">
+						  <div class="text">Caption Three</div>
+						</div>
+					</div>
+				</div>
+				<div id="menuprincipal">
+						<div id="res" class="bajo izq" onclick="location.href='restaurantes.html'">
+							<div class="mp_title">Restaurantes</div>
+							<div id="mp_rest" class="mp_img"></div>
+						</div>
+						<div id="map" class="bajo cen" onclick="location.href='mapa.html'">
+							<div class="mp_title">Mapa</div>
+							<div id="mp_map" class="mp_img"></div>
+						</div>
+						<div id="ayu" class="bajo der" onclick="location.href='ayuda.html'">
+							<div class="mp_title">Ayuda</div>
+							<div id="mp_help" class="mp_img"></div>
+						</div>
+						<div id="pro" class="bajo izq" onclick="location.href='promociones.html'">
+							<div class="mp_title">Promociones</div>
+							<div id="mp_prom" class="mp_img"></div>
+						</div>
+						<div id="con" class="bajo cen" onclick="location.href='contacto.html'">
+							<div class="mp_title">Contáctenos</div>
+							<div id="mp_contact" class="mp_img"></div>
+						</div>
+						<div id="car" class="bajo der"onclick="location.href='carrito.html'">
+							<div class="mp_title">Mi carrito</div>
+							<div id="mp_cart" class="mp_img"></div>
+						</div>
+				</div>
+			</div>
+		</div>
+		<script src="scripts/slider.js" type="text/javascript"></script>
+	</body>
+</html>

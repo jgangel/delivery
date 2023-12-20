@@ -1,0 +1,116 @@
+#pub {
+	width: 100%;
+	flex: 0 1 auto;
+	background-color:#333;
+	max-width:600px;
+	margin: auto;
+	
+}
+
+#menuprincipal {
+	width: 100%;
+	flex: 1 1;
+}
+
+.pubimg{
+	width:100%;
+}
+
+.bajo {
+	height: 50%;
+	float: left;
+	color:#9cf;
+	text-align: center;
+	background: #9cf;
+}
+
+.cen {
+	border-style: solid;
+	border-width: 0 1px;
+	border-color: #eee;
+	width:34%;
+}
+.der {
+	width:33%;
+}
+.izq {
+	width:33%;
+}
+
+.mp_title {
+	text-align: center;
+	width:100%;
+	height:20%;
+	background-color: #fff;
+}
+.mp_img {
+	width:100%;
+	height:80%;
+}
+
+#mp_rest {
+	background: url(/images/rest_icon.svg) no-repeat center center ; 
+	background-size: contain
+}
+#mp_map {
+	background: url(/images/map_icon.svg) no-repeat center center ; 
+	background-size: contain
+}	
+#mp_help{
+	background: url(/images/help_icon.svg) no-repeat center center ; 
+	background-size: contain
+}
+#mp_prom{
+	background: url(/images/promo_icon.svg) no-repeat center center ; 
+	background-size: contain
+}
+#mp_contact{
+	background: url(/images/contact_icon.svg) no-repeat center center ; 
+	background-size: contain
+}
+#mp_cart{
+	background: url(/images/cart_icon.svg) center center no-repeat; 
+	background-size: contain
+}
+
+
+.slideshow-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.text {
+	  color: white;
+	  background-color:#333;
+	  font-size: 0.8em;
+	  padding: 8px 12px;
+	  position: absolute;
+	  bottom:0;
+	  width: 100%;
+	  text-align: center;
+	  opacity:0.8;
+}
+.numbertext {
+	  color:yellow;
+	  font-size: 12px;
+	  padding:  8px 12px;
+	  position: absolute;
+	  top: 0;
+}
+.fade {
+	  -webkit-animation-name: fade;
+	  -webkit-animation-duration: 1.5s;
+	  animation-name: fade;
+	  animation-duration: 1.5s;
+}
+.mySlides {
+	display:none
+}
+@-webkit-keyframes fade {
+	  from {opacity: .4} 
+	  to {opacity: 1}
+}
+@keyframes fade {
+  from {opacity: .4} 
+	to {opacity:1}
+	}
